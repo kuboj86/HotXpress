@@ -24,6 +24,7 @@ namespace HotXpress
         {
             InitializeComponent();
             //Test comment
+            //Another comment
         }
     }
 }
