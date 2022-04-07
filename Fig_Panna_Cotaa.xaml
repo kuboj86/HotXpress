@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Fig_Panna_Cotaa">
+      Title="Fig_Panna_Cotaa" Height="143.6" Width="70.9">
 
-    <Grid>
-        
+    <Grid Width="70.9" Height="143.6">
+        <Frame Width="70.9" Height="143.6" Background="White" Content=""/>
     </Grid>
 </Page>

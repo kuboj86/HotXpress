@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Fig_Tart">
+      Title="Fig_Tart" Width="70.9">
 
     <Grid Width="70.9" Height="143.6">
         <Frame Width="70.9" Height="143.6" Background="White" Content=""/>
