@@ -6,8 +6,5 @@
         xmlns:local="clr-namespace:HotXpress"
         mc:Ignorable="d"
         Title="MainWindow" Height="143.6" Width="70.9">
-    <Grid Width="70.9" Height="143.6">
-        <Button Content="Button" HorizontalAlignment="Center" Height="23" Margin="0,10,0,0" VerticalAlignment="Top" Width="51"/>
-
-    </Grid>
+    <Grid Width="70.9" Height="143.6"/>
 </Window>
