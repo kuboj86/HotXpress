@@ -1,4 +1,4 @@
-﻿<Page x:Class="HotXpress.Home_Screen"
+﻿<Page x:Class="HotXpress.Wait_Time"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,9 +6,9 @@
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Home_Screen" Width="70.9" Height="143.9">
+      Title="Wait_Time">
 
-    <Grid Width="70.9" Height="140.3">
+    <Grid Width="70.9" Height="143.6">
         <Frame Background="White" Content=""/>
 
     </Grid>
