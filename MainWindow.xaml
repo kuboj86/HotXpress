@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotXpress"
         mc:Ignorable="d"
-        Title="MainWindow" Height="143.6" Width="70.9">
-    <Grid Width="70.9" Height="143.6">
-        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="153" Margin="-4,-6,-0.1,-3.4" VerticalAlignment="Top" Width="75"/>
+        Title="MainWindow" Height="1792" Width="828">
+    <Grid Width="828" Height="1792">
+        <Frame x:Name="frame" Content="Frame" HorizontalAlignment="Left" Height="1792" Margin="-4,-6,-0.1,-3.4" VerticalAlignment="Top" Width="828"/>
     </Grid>
 </Window>

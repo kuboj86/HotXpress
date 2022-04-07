@@ -5,11 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="1792" d:DesignWidth="828"
       Title="Menu_Page">
 
-    <Grid Width="70.9" Height="143.6">
-        <Frame x:Name="MenuFrame" Content="" Background="#FF8BC77D" Width="70.9"/>
+    <Grid Width="828" Height="1792">
+        <Frame x:Name="MenuFrame" Content="" Background="#FF8BC77D" Height="1792" Width="828"/>
         <TextBox HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="Bacon Wrapped" VerticalAlignment="Top" Width="47" FontSize="8"/>
         <TextBox HorizontalAlignment="Left" Height="24" Margin="10,47,0,0" TextWrapping="Wrap" Text="FIg &amp; pulled" VerticalAlignment="Top" Width="47" FontSize="8"/>
         <TextBox HorizontalAlignment="Left" Height="31" Margin="10,76,0,0" TextWrapping="Wrap" Text="Fig Panacotta" VerticalAlignment="Top" Width="47" FontSize="9"/>

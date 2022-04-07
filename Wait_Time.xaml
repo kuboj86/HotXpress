@@ -6,10 +6,10 @@
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Wait_Time">
+      Title="Wait_Time" Width="828" Height="1792">
 
-    <Grid Width="70.9" Height="143.6">
-        <Frame Background="White" Content=""/>
+    <Grid Width="828" Height="1792">
+        <Frame Background="White" Content="" Width="828" Height="1792"/>
 
     </Grid>
 </Page>
