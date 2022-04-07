@@ -24,5 +24,10 @@ namespace HotXpress
         {
             InitializeComponent();
         }
+
+        private void backToMenu(object sender, RoutedEventArgs e)
+        {
+            MenuFrame.NavigationService.Navigate(new Home_Screen());
+        }
     }
 }

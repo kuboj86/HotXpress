@@ -23,8 +23,12 @@ namespace HotXpress
         public MainWindow()
         {
             InitializeComponent();
-            //Test comment
-            //Another comment
+            GetHomeScreen();
+        }
+        public void GetHomeScreen()
+        {
+            frame.NavigationService.Navigate(new Home_Screen());
+
         }
     }
 }

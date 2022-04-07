@@ -55,23 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Bacon_Wrapped_Figs.xaml.cs">
-      <DependentUpon>Bacon_Wrapped_Figs.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Check_Out.xaml.cs">
       <DependentUpon>Check_Out.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Fig_and_Pork_Taco.xaml.cs">
-      <DependentUpon>Fig_and_Pork_Taco.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Fig_Panna_Cotaa.xaml.cs">
-      <DependentUpon>Fig_Panna_Cotaa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Fig_Smoothie.xaml.cs">
-      <DependentUpon>Fig_Smoothie.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Fig_Tart.xaml.cs">
-      <DependentUpon>Fig_Tart.xaml</DependentUpon>
     </Compile>
     <Compile Include="Menu_Page.xaml.cs">
       <DependentUpon>Menu_Page.xaml</DependentUpon>
@@ -88,27 +73,7 @@
     <Compile Include="Wait_Time.xaml.cs">
       <DependentUpon>Wait_Time.xaml</DependentUpon>
     </Compile>
-    <Page Include="Bacon_Wrapped_Figs.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Check_Out.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Fig_and_Pork_Taco.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Fig_Panna_Cotaa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Fig_Smoothie.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Fig_Tart.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -9,7 +9,11 @@
       Title="Menu_Page">
 
     <Grid Width="70.9" Height="143.6">
-        <Frame Content="" Background="White" Width="70.9"/>
+        <Frame x:Name="MenuFrame" Content="" Background="#FF8BC77D" Width="70.9"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="Bacon Wrapped" VerticalAlignment="Top" Width="47" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,47,0,0" TextWrapping="Wrap" Text="FIg &amp; pulled" VerticalAlignment="Top" Width="47" FontSize="8"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="10,76,0,0" TextWrapping="Wrap" Text="Fig Panacotta" VerticalAlignment="Top" Width="47" FontSize="9"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="14" Margin="5,112,0,0" VerticalAlignment="Top" Width="28" FontSize="8" Click="backToMenu"/>
 
     </Grid>
 </Page>
