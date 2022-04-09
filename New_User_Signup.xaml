@@ -10,5 +10,52 @@
 
     <Grid Width="828" Height="1792">
         <Frame Width="828" Height="1792" Background="White" Content=""/>
+        <TextBlock HorizontalAlignment="Center" 
+                   Height="72" 
+                   Margin="0,66,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="New User Signup" 
+                   VerticalAlignment="Top" 
+                   FontSize="50"
+                   FontWeight="Bold"
+                   Background="LightGray"
+                   TextAlignment="Center"
+                   
+                   Width="480"/>
+        <TextBox HorizontalAlignment="Center" 
+                 Height="69" 
+                 Margin="0,255,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="Username" 
+                 VerticalAlignment="Top"
+                 FontSize="52"
+                 TextAlignment="Center"
+                 Background="#FFF6F6F6"
+                 Foreground="DarkGray"
+                 Width="780"/>
+        <TextBox HorizontalAlignment="Center" 
+            Height="69" 
+            Margin="0,372,0,0" 
+            TextWrapping="Wrap" 
+            Text="Password" 
+            VerticalAlignment="Top"
+            FontSize="52"
+            TextAlignment="Center"
+            Background="#FFF6F6F6"
+            Foreground="DarkGray"
+            Width="780"/>
+        <Button Content="Submit" HorizontalAlignment="Center" 
+            Margin="0,571,0,0" VerticalAlignment="Top" 
+            Width="396" Height="67" 
+            Background="LightCoral"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Page>

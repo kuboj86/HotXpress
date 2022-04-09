@@ -10,10 +10,22 @@
 
     <Grid Width="828" Height="1792">
         <Frame x:Name="MenuFrame" Content="" Background="#FF8BC77D" Height="1792" Width="828"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="Bacon Wrapped" VerticalAlignment="Top" Width="47" FontSize="8"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="10,47,0,0" TextWrapping="Wrap" Text="FIg &amp; pulled" VerticalAlignment="Top" Width="47" FontSize="8"/>
-        <TextBox HorizontalAlignment="Left" Height="31" Margin="10,76,0,0" TextWrapping="Wrap" Text="Fig Panacotta" VerticalAlignment="Top" Width="47" FontSize="9"/>
-        <Button Content="Back" HorizontalAlignment="Left" Height="14" Margin="5,112,0,0" VerticalAlignment="Top" Width="28" FontSize="8" Click="backToMenu"/>
+        <TextBox HorizontalAlignment="Center" Height="240" Margin="0,459,0,0" TextWrapping="Wrap" Text="Bacon Wrapped" VerticalAlignment="Top" Width="808" FontSize="8"/>
+        <TextBox HorizontalAlignment="Center" Height="212" Margin="0,860,0,0" TextWrapping="Wrap" Text="FIg &amp; pulled" VerticalAlignment="Top" Width="808" FontSize="8"/>
+        <TextBox HorizontalAlignment="Center" Height="211" Margin="0,1262,0,0" TextWrapping="Wrap" Text="Fig Panacotta" VerticalAlignment="Top" Width="808" FontSize="9"/>
+        <Button Content="Back" HorizontalAlignment="Left" 
+                Margin="10,10,0,0" VerticalAlignment="Top" 
+                Width="174" Height="67" 
+                Background="LightCoral"
+                Foreground="WhiteSmoke"
+                FontFamily="Arial"
+                FontSize="40">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Page>
