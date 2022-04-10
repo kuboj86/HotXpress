@@ -5,11 +5,48 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="1792" d:DesignWidth="828"
       Title="Wait_Time" Width="828" Height="1792">
 
     <Grid Width="828" Height="1792">
         <Frame Background="White" Content="" Width="828" Height="1792"/>
+        <Button Content="Account Login" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            Width="282" Height="100" 
+            Background="SandyBrown"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40" Margin="536,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Menu" HorizontalAlignment="Center" 
+            Margin="0,669,0,0" VerticalAlignment="Top" 
+            Width="594" Height="100" 
+            Background="SandyBrown"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40"
+            Click="nav_ToMenu">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBlock Text="THIS IS WHERE WE SHOW THE WAIT TIME"
+                   HorizontalAlignment="Left" 
+                   Height="728" Width="627"
+                   FontFamily="arial"
+                   FontSize="70"
+                   FontWeight="Bold"
+                   Margin="84,840,0,0" 
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Top" />
 
     </Grid>
 </Page>

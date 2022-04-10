@@ -10,9 +10,35 @@
 
     <Grid Width="828" Height="1792">
         <Frame x:Name="MenuFrame" Content="" Background="#FF8BC77D" Height="1792" Width="828"/>
-        <TextBox HorizontalAlignment="Center" Height="240" Margin="0,459,0,0" TextWrapping="Wrap" Text="Bacon Wrapped" VerticalAlignment="Top" Width="808" FontSize="8"/>
-        <TextBox HorizontalAlignment="Center" Height="212" Margin="0,860,0,0" TextWrapping="Wrap" Text="FIg &amp; pulled" VerticalAlignment="Top" Width="808" FontSize="8"/>
-        <TextBox HorizontalAlignment="Center" Height="211" Margin="0,1262,0,0" TextWrapping="Wrap" Text="Fig Panacotta" VerticalAlignment="Top" Width="808" FontSize="9"/>
+
+        <TextBox Text="Bacon 
+                 
+                 
+                 Wrapped 
+                 
+                 
+                 Figs"
+                 Padding="0,25,0,0"
+                 FontFamily="Georgia"
+                 HorizontalAlignment="Center" 
+                 TextAlignment="Center"
+                 Height="228" Width="808"
+                 
+                 Margin="0,485,0,0" 
+                 TextWrapping="Wrap"  
+                 VerticalAlignment="Top"  
+                 FontSize="50">
+            <TextBoxBase.Effect>
+                <DropShadowEffect ShadowDepth="8"
+                          Direction="330"
+                          Color="Black"
+                          Opacity="0.5"
+                          BlurRadius="4">
+
+                </DropShadowEffect>
+            </TextBoxBase.Effect>
+
+        </TextBox>
         <Button Content="Back" HorizontalAlignment="Left" 
                 Margin="10,10,0,0" VerticalAlignment="Top" 
                 Width="174" Height="67" 
@@ -26,6 +52,87 @@
                 </Style>
             </Button.Resources>
         </Button>
+        <TextBox Text="Fig and Pulled 
+                 
+                 Pork Taco"
+                 Padding="0,50,0,0"
+            FontFamily="Georgia"
+            HorizontalAlignment="Center" 
+            TextAlignment="Center"
+            Height="228" Width="808"
+                 
+            Margin="0,749,0,0" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"  
+            FontSize="50">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="8"
+                    Direction="330"
+                    Color="Black"
+                    Opacity="0.5"
+                    BlurRadius="4"/>
+            </TextBox.Effect>
+
+        </TextBox>
+        <TextBox Text="Fig Pannacotta"                 
+            FontFamily="Georgia"
+            HorizontalAlignment="Center" 
+            TextAlignment="Center"
+            Height="228" Width="808"
+            Padding="0,75,0,0"     
+            Margin="0,1015,0,0" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"  
+            FontSize="50">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="8"
+                    Direction="330"
+                    Color="Black"
+                    Opacity="0.5"
+                    BlurRadius="4"/>
+            </TextBox.Effect>
+
+        </TextBox>
+        <TextBox Text="Fig Smoothie"
+                 Padding="0,75,0,0"
+            FontFamily="Georgia"
+            HorizontalAlignment="Center" 
+            TextAlignment="Center"
+            Height="228" Width="808"
+                 
+            Margin="0,1285,0,0" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"  
+            FontSize="50">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="8"
+                    Direction="330"
+                    Color="Black"
+                    Opacity="0.5"
+                    BlurRadius="4"/>
+            </TextBox.Effect>
+
+        </TextBox>
+        <TextBox Text="Fig Tart"
+                 Padding="0,80,0,0"
+            FontFamily="Georgia"
+            HorizontalAlignment="Center" 
+            TextAlignment="Center"
+            Height="228" Width="808"
+                 
+            Margin="0,1554,0,0" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"  
+            FontSize="50">
+            <TextBox.Effect>
+                <DropShadowEffect ShadowDepth="8"
+                    Direction="330"
+                    Color="Black"
+                    Opacity="0.5"
+                    BlurRadius="4"/>
+            </TextBox.Effect>
+
+        </TextBox>
 
     </Grid>
 </Page>

@@ -1,4 +1,4 @@
-﻿<Page x:Class="HotXpress.New_User_Signup"
+﻿<Page x:Class="HotXpress.Bacon_Wrapped_Figs"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
       d:DesignHeight="1792" d:DesignWidth="828"
-      Title="New_User_Signup" Width="828" Height="1792">
+      Title="Bacon_Wrapped_Figs">
 
     <Grid Width="828" Height="1792">
         <Frame Width="828" Height="1792" Background="White" Content=""/>
@@ -95,17 +95,6 @@
             Margin="0,1092,0,0" 
             TextWrapping="Wrap" 
             Text="Re-Enter Password" 
-            VerticalAlignment="Top"
-            FontSize="52"
-            TextAlignment="Center"
-            Background="#FFF6F6F6"
-            Foreground="DarkGray"
-            Width="780"/>
-        <TextBox HorizontalAlignment="Center" 
-            Height="69" 
-            Margin="0,482,0,0" 
-            TextWrapping="Wrap" 
-            Text="Username" 
             VerticalAlignment="Top"
             FontSize="52"
             TextAlignment="Center"

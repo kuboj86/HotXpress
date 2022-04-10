@@ -16,14 +16,42 @@
          />
         <Button Content="Menu" HorizontalAlignment="Center" 
                 Margin="0,669,0,0" VerticalAlignment="Top" 
-                Width="300" Height="100" 
-                Background="LightCoral"
+                Width="594" Height="100" 
+                Background="SandyBrown"
                 Foreground="WhiteSmoke"
                 FontFamily="Arial"
                 FontSize="40"
                 Click="nav_ToMenu">
             <Button.Resources>
                 <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Wait Time" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="594" Height="100" 
+                Background="SandyBrown"
+                Foreground="WhiteSmoke"
+                FontFamily="Arial"
+                FontSize="40">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Account Login" 
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top" 
+            Width="282" Height="100" 
+            Background="SandyBrown"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40" Margin="536,0,0,0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="20"/>
                 </Style>
             </Button.Resources>

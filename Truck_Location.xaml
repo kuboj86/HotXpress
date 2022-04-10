@@ -9,6 +9,106 @@
       Title="Truck_Location" Width="828" Height="1792">
 
     <Grid Width="828" Height="1792">
-        <Frame Width="828" Height="1792" Background="White" Content=""/>
+        <Frame Width="828" Height="1792" Background="SandyBrown" Content=""/>
+        <TextBlock 
+            HorizontalAlignment="Center"  
+            Height="66" Margin="0,624,0,0" 
+            TextWrapping="Wrap" 
+            Text="Today's Location"
+            FontSize="50"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="496"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Background="WhiteSmoke"
+            Height="73" 
+            Margin="161,690,0,0" 
+            TextWrapping="Wrap" 
+            Text="Where we display Current Location" 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
+        <TextBlock 
+            HorizontalAlignment="Left"  
+            Height="66" Margin="177,896,0,0" 
+            TextWrapping="Wrap" 
+            Text="Future Locations"
+            FontSize="50"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="496"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Background="WhiteSmoke"
+            Height="73" 
+            Margin="0,1009,0,0" 
+            TextWrapping="Wrap" 
+            Text="Station St. and Railroad Ave." 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Background="WhiteSmoke"
+            Height="73" 
+            Margin="0,1126,0,0" 
+            TextWrapping="Wrap" 
+            Text="E. State St. and S. Union St." 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Background="WhiteSmoke"
+            Height="73" 
+            Margin="0,1238,0,0" 
+            TextWrapping="Wrap" 
+            Text="West Beach Parking Lot" 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Background="WhiteSmoke"
+            Height="73" 
+            Margin="0,1357,0,0" 
+            TextWrapping="Wrap" 
+            Text="Dennos Museum Parking Lot" 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
+        <TextBlock 
+            HorizontalAlignment="Center" 
+            Background="WhiteSmoke"
+            Height="71" 
+            Margin="0,1464,0,0" 
+            TextWrapping="Wrap" 
+            Text="Right Brain Brewery Parking Lot" 
+            FontSize="30"
+            FontWeight="Bold"
+            FontFamily="Arial"
+            TextAlignment="Center"
+            VerticalAlignment="Top" 
+            Width="528"/>
     </Grid>
 </Page>
