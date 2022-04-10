@@ -1,14 +1,14 @@
-﻿<Page x:Class="HotXpress.New_User_Signup"
+﻿<Page x:Class="HotXpress.Login_Landing_Page"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:HotXpress"
       mc:Ignorable="d" 
-      d:DesignHeight="1792" d:DesignWidth="828"
-      Title="New_User_Signup" Width="828" Height="1792">
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login_Landing_Page">
 
-    <Grid Width="828" Height="1792">
+    <Grid Width="828" Height="1791">
         <Frame Width="828" Height="1792" Background="White" Content=""/>
         <TextBlock HorizontalAlignment="Center" 
                    Height="72" 
@@ -44,19 +44,6 @@
             Background="#FFF6F6F6"
             Foreground="DarkGray"
             Width="780"/>
-        <Button Content="Create" HorizontalAlignment="Center" 
-            Margin="0,1306,0,0" VerticalAlignment="Top" 
-            Width="396" Height="67" 
-            Background="LightCoral"
-            Foreground="WhiteSmoke"
-            FontFamily="Arial"
-            FontSize="40">
-            <Button.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="20"/>
-                </Style>
-            </Button.Resources>
-        </Button>
         <TextBox HorizontalAlignment="Center" 
             Height="69" 
             Margin="0,604,0,0" 
@@ -101,5 +88,18 @@
             Background="#FFF6F6F6"
             Foreground="DarkGray"
             Width="780"/>
+        <Button Content="Create" HorizontalAlignment="Center" 
+            Margin="0,1306,0,0" VerticalAlignment="Top" 
+            Width="396" Height="67" 
+            Background="LightCoral"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Page>

@@ -10,5 +10,75 @@
 
     <Grid Width="828" Height="1792">
         <Frame Width="828" Height="1792" Background="White" Content=""/>
+        <TextBlock HorizontalAlignment="Center" 
+                   Height="72" 
+                   Margin="0,66,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="Payment Info" 
+                   VerticalAlignment="Top" 
+                   FontSize="50"
+                   FontWeight="Bold"
+                   Background="LightGray"
+                   TextAlignment="Center"
+                   
+                   Width="480"/>
+        <TextBox HorizontalAlignment="Center" 
+
+            Height="69" 
+                 Margin="0,255,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="Name on Card" 
+                 VerticalAlignment="Top"
+                 FontSize="52"
+                 TextAlignment="Center"
+                 Background="#FFF6F6F6"
+                 Foreground="DarkGray"
+                 Width="780"/>
+        <TextBox HorizontalAlignment="Center" 
+            Height="69" 
+            Margin="0,372,0,0" 
+            TextWrapping="Wrap" 
+            Text="Card Number" 
+            VerticalAlignment="Top"
+            FontSize="52"
+            TextAlignment="Center"
+            Background="#FFF6F6F6"
+            Foreground="DarkGray"
+            Width="780"/>
+        <Button Content="Enter Information" HorizontalAlignment="Center" 
+            Margin="0,748,0,0" VerticalAlignment="Top" 
+            Width="539" Height="67" 
+            Background="LightCoral"
+            Foreground="WhiteSmoke"
+            FontFamily="Arial"
+            FontSize="40">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox HorizontalAlignment="Left" 
+            Height="69" 
+            Margin="119,592,0,0" 
+            TextWrapping="Wrap" 
+            Text="EXP" 
+            VerticalAlignment="Top"
+            FontSize="52"
+            TextAlignment="Center"
+            Background="#FFF6F6F6"
+            Foreground="DarkGray"
+            Width="237"/>
+        <TextBox HorizontalAlignment="Left" 
+            Height="69" 
+            Margin="436,592,0,0" 
+            TextWrapping="Wrap" 
+            Text="CVV" 
+            VerticalAlignment="Top"
+            FontSize="52"
+            TextAlignment="Center"
+            Background="#FFF6F6F6"
+            Foreground="DarkGray"
+            Width="218"/>
     </Grid>
 </Page>

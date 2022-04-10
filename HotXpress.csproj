@@ -58,6 +58,9 @@
     <Compile Include="Check_Out.xaml.cs">
       <DependentUpon>Check_Out.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Login_Landing_Page.xaml.cs">
+      <DependentUpon>Login_Landing_Page.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Menu_Page.xaml.cs">
       <DependentUpon>Menu_Page.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Home_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login_Landing_Page.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
